@@ -1,0 +1,17 @@
+{
+  "name": "@graphize/template-browser",
+  "description": "Template project to render Graphize animations on the web",
+  "license": "MIT",
+  "author": "Hugo SALOU",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@graphize/anim-engine": "^1.0.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.3"
+  }
+}
